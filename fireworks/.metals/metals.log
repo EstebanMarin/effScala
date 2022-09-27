@@ -354,3 +354,66 @@ WARNING: Unmatched cancel notification for request id 2066
 2022.09.27 12:13:21 INFO  time: compiled fireworks in 0.18s[0m
 2022.09.27 12:13:27 INFO  compiling fireworks (1 scala source)[0m
 2022.09.27 12:13:27 INFO  time: compiled fireworks in 0.19s[0m
+2022.09.27 12:17:01 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:17:01 INFO  time: compiled fireworks in 0.18s[0m
+2022.09.27 12:17:13 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:17:13 INFO  time: compiled fireworks in 0.15s[0m
+2022.09.27 12:18:54 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:18:54 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:19:03 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:19:03 INFO  time: compiled fireworks in 0.14s[0m
+Sep 27, 2022 12:19:06 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2610
+2022.09.27 12:19:09 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:19:09 INFO  time: compiled fireworks in 0.14s[0m
+Sep 27, 2022 12:19:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2648
+2022.09.27 12:19:40 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:19:40 INFO  time: compiled fireworks in 74ms[0m
+2022.09.27 12:19:40 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:43 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:43 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:43 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:45 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:44 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:45 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:45 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:45 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:45 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:46 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:46 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:46 WARN  Could not load snapshot text for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+2022.09.27 12:19:47 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:19:47 INFO  time: compiled fireworks in 0.15s[0m
+2022.09.27 12:19:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:19:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:19:57 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:19:57 INFO  Trying to attach to remote debuggee VM localhost:51437 .[0m
+2022.09.27 12:19:57 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:19:57 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:19:57 INFO  Closing debug server tcp://0.0.0.0:51433[0m
+2022.09.27 12:20:05 INFO  compiling fireworks-test (1 scala source)[0m
+2022.09.27 12:20:05 INFO  time: compiled fireworks-test in 0.17s[0m
+2022.09.27 12:26:52 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:26:52 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:28:16 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:28:16 INFO  time: compiled fireworks in 78ms[0m
+2022.09.27 12:28:37 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:28:37 INFO  time: compiled fireworks in 0.15s[0m
+2022.09.27 12:28:53 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:28:53 INFO  time: compiled fireworks in 0.15s[0m
+2022.09.27 12:29:01 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:29:01 INFO  time: compiled fireworks in 0.14s[0m
+2022.09.27 12:29:08 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:29:08 INFO  time: compiled fireworks in 0.14s[0m
+2022.09.27 12:29:39 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:29:39 INFO  time: compiled fireworks in 0.14s[0m
+2022.09.27 12:31:02 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:31:02 INFO  time: compiled fireworks in 0.15s[0m
+Sep 27, 2022 12:31:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

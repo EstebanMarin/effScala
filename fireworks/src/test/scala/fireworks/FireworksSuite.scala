@@ -20,14 +20,14 @@ class FireworksSuite extends FunSuite, FireworksGenerators:
     }
   }
 
-  // property("'Firework.next' returns 'Launched' or 'Exploding' when given 'Launched'") {
-  //   Prop.forAll { (launched: Launched) =>
-  //     Firework.next(launched) match {
-  //       case _: Launched | _: Exploding => Prop.passed
-  //       case _ => fail("'Firework.next' did not return a value of type 'Launched' or a value of type 'Exploding'.")
-  //     }
-  //   }
-  // }
+  property("'Firework.next' returns 'Launched' or 'Exploding' when given 'Launched'") {
+    Prop.forAll { (launched: Launched) =>
+      Firework.next(launched) match {
+        case _: Launched | _: Exploding => Prop.passed
+        case _ => fail("'Firework.next' did not return a value of type 'Launched' or a value of type 'Exploding'.")
+      }
+    }
+  }
 
   // property("'Firework.next' returns 'Exploding' or 'Done' when given 'Exploding'") {
   //   Prop.forAll { (exploding: Exploding) =>
