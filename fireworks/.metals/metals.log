@@ -1,0 +1,356 @@
+2022.09.23 19:36:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.23 19:36:23 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.23 19:36:23 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.23 19:36:23 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.23 19:36:24 INFO  time: initialize in 0.69s[0m
+2022.09.23 19:36:25 WARN  Build server is not auto-connectable.[0m
+2022.09.23 19:36:27 INFO  running '/Users/estebanmarin/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/b0/v_6_p01d6yv660spzyn30r580000gn/T/metals49335838547605020/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.09.23 19:36:27 ERROR [info] waiting for lock on /Users/estebanmarin/.sbt/boot/sbt.boot.lock to be available...[0m
+2022.09.23 19:36:27 WARN  no build target for: /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/metals.sbt[0m
+2022.09.23 19:36:27 WARN  no build target for: /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/metals.sbt[0m
+2022.09.23 19:36:27 INFO  skipping build import with status 'Started'[0m
+2022.09.23 19:36:28 INFO  no build target found for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.09.23 19:36:30 WARN  no build target for: /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala[0m
+Sep 23, 2022 7:36:50 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 23, 2022 7:36:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Sep 23, 2022 7:36:58 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.09.23 19:37:04 INFO  time: ran 'sbt bloopInstall' in 37s[0m
+2022.09.23 19:37:04 ERROR sbt command failed: /Users/estebanmarin/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/b0/v_6_p01d6yv660spzyn30r580000gn/T/metals49335838547605020/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall[0m
+2022.09.23 19:37:28 INFO  running '/Users/estebanmarin/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/b0/v_6_p01d6yv660spzyn30r580000gn/T/metals6875839441800022575/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+2022.09.23 19:37:29 INFO  [info] welcome to sbt 1.6.1 (Eclipse Adoptium Java 17.0.4.1)[0m
+2022.09.23 19:37:29 INFO  [info] loading settings for project fireworks-build-build-build from metals.sbt ...[0m
+2022.09.23 19:37:29 INFO  [info] loading project definition from /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/project[0m
+2022.09.23 19:37:30 INFO  [info] loading settings for project fireworks-build-build from metals.sbt ...[0m
+2022.09.23 19:37:30 INFO  [info] loading project definition from /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project[0m
+2022.09.23 19:37:53 INFO  [success] Generated .bloop/fireworks-build-build.json[0m
+2022.09.23 19:37:53 INFO  [success] Total time: 23 s, completed Sep 23, 2022, 7:37:54 PM[0m
+2022.09.23 19:37:53 INFO  [info] loading settings for project fireworks-build from buildSettings.sbt,metals.sbt,plugins.sbt ...[0m
+2022.09.23 19:37:53 INFO  [info] loading project definition from /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project[0m
+2022.09.23 19:37:53 INFO  [success] Generated .bloop/fireworks-build.json[0m
+2022.09.23 19:37:55 INFO  [success] Total time: 1 s, completed Sep 23, 2022, 7:37:55 PM[0m
+2022.09.23 19:37:55 INFO  [info] loading settings for project fireworks from assignment.sbt,build.sbt ...[0m
+2022.09.23 19:37:55 INFO  [info] set current project to effective-scala-fireworks (in build file:/Users/estebanmarin/47deg/coursera/effective-scala/fireworks/)[0m
+2022.09.23 19:40:25 INFO  [success] Generated .bloop/fireworks-test.json[0m
+2022.09.23 19:40:25 INFO  [success] Generated .bloop/fireworks.json[0m
+2022.09.23 19:40:25 INFO  [success] Total time: 150 s (02:30), completed Sep 23, 2022, 7:40:25 PM[0m
+2022.09.23 19:40:25 INFO  time: ran 'sbt bloopInstall' in 2m57s[0m
+2022.09.23 19:40:25 INFO  Attempting to connect to the build server...[0m
+2022.09.23 19:40:25 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:40:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:40:25 INFO  Attempting to connect to the build server...[0m
+2022.09.23 19:40:25 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:40:25 INFO  Attempting to connect to the build server...[0m
+2022.09.23 19:40:25 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:40:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:40:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:40:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2022.09.23 19:40:46 WARN  Retrying connection to the build server Bloop[0m
+2022.09.23 19:40:46 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:40:46 ERROR Timeout waiting for 'build/initialize' response[0m
+2022.09.23 19:40:46 WARN  Retrying connection to the build server Bloop[0m
+2022.09.23 19:40:46 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:40:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:40:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:41:06 ERROR Timeout waiting for 'build/initialize' response[0m
+2022.09.23 19:41:06 WARN  Retrying connection to the build server Bloop[0m
+2022.09.23 19:41:06 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.23 19:41:06 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.23 19:41:06 INFO  time: Connected to build server in 40s[0m
+2022.09.23 19:41:06 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.23 19:41:13 INFO  time: indexed workspace in 7.01s[0m
+2022.09.23 19:46:27 INFO  shutting down Metals[0m
+2022.09.23 19:46:27 INFO  Shut down connection with build server.[0m
+2022.09.23 19:46:27 INFO  Shut down connection with build server.[0m
+2022.09.23 19:46:27 INFO  Shut down connection with build server.[0m
+2022.09.24 08:01:48 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.24 08:01:48 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.24 08:01:48 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.24 08:01:48 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.24 08:01:49 INFO  time: initialize in 0.79s[0m
+2022.09.24 08:01:50 INFO  Attempting to connect to the build server...[0m
+2022.09.24 08:01:50 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 08:01:50 INFO  skipping build import with status 'Installed'[0m
+2022.09.24 08:01:52 INFO  no build target found for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.09.24 08:01:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 08:01:52 INFO  Attempting to connect to the build server...[0m
+2022.09.24 08:01:52 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 08:01:52 INFO  Attempting to connect to the build server...[0m
+2022.09.24 08:01:52 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 08:01:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 08:01:52 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 08:01:52 INFO  time: Connected to build server in 2.44s[0m
+2022.09.24 08:01:52 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.24 08:01:52 INFO  time: Imported build in 0.15s[0m
+2022.09.24 08:01:53 INFO  time: code lens generation in 2.93s[0m
+2022.09.24 08:01:55 INFO  time: indexed workspace in 2.39s[0m
+2022.09.24 08:01:55 INFO  compiling fireworks (2 scala sources)[0m
+2022.09.24 08:01:59 INFO  compiling fireworks-test (2 scala sources)[0m
+2022.09.24 08:01:59 INFO  time: compiled fireworks in 4.32s[0m
+2022.09.24 08:01:59 INFO  time: compiled fireworks-test in 0.8s[0m
+2022.09.24 08:02:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.24 08:02:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.24 08:02:21 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Done' when given 'Done' `)][0m
+2022.09.24 08:02:22 INFO  Trying to attach to remote debuggee VM localhost:49442 .[0m
+2022.09.24 08:02:22 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.24 08:02:23 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Done' when given 'Done' `)][0m
+2022.09.24 08:02:22 INFO  Closing debug server tcp://0.0.0.0:49438[0m
+Sep 24, 2022 8:02:28 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2022.09.24 08:27:32 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:27:32 INFO  time: compiled fireworks in 0.36s[0m
+2022.09.24 08:29:30 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:29:30 INFO  time: compiled fireworks in 0.12s[0m
+2022.09.24 08:30:47 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:30:47 INFO  time: compiled fireworks in 0.36s[0m
+2022.09.24 08:30:57 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:30:57 INFO  time: compiled fireworks in 0.35s[0m
+2022.09.24 08:32:44 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:32:44 INFO  time: compiled fireworks in 0.1s[0m
+2022.09.24 08:33:13 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:33:13 INFO  time: compiled fireworks in 0.28s[0m
+2022.09.24 08:43:06 INFO  compiling fireworks (1 scala source)[0m
+2022.09.24 08:43:06 INFO  time: compiled fireworks in 0.24s[0m
+2022.09.24 08:43:10 INFO  shutting down Metals[0m
+2022.09.24 08:43:10 INFO  Shut down connection with build server.[0m
+2022.09.24 08:43:10 INFO  Shut down connection with build server.[0m
+2022.09.24 08:43:10 INFO  Shut down connection with build server.[0m
+2022.09.24 09:12:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.24 09:12:25 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.24 09:12:25 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.24 09:12:25 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.24 09:12:26 INFO  time: initialize in 0.8s[0m
+2022.09.24 09:12:27 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:12:27 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:12:27 INFO  skipping build import with status 'Installed'[0m
+2022.09.24 09:12:29 INFO  no build target found for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.09.24 09:12:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:12:29 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:12:29 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:12:29 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:12:29 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:12:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:12:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:12:29 INFO  time: Connected to build server in 2.75s[0m
+2022.09.24 09:12:29 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.24 09:12:29 INFO  time: Imported build in 0.12s[0m
+2022.09.24 09:12:31 INFO  time: code lens generation in 3.33s[0m
+2022.09.24 09:12:32 INFO  time: indexed workspace in 2.52s[0m
+2022.09.24 09:15:16 INFO  shutting down Metals[0m
+2022.09.24 09:15:16 INFO  Shut down connection with build server.[0m
+2022.09.24 09:15:16 INFO  Shut down connection with build server.[0m
+2022.09.24 09:15:16 INFO  Shut down connection with build server.[0m
+2022.09.24 09:15:23 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.24 09:15:24 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.24 09:15:24 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.24 09:15:24 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.24 09:15:24 INFO  time: initialize in 0.71s[0m
+2022.09.24 09:15:25 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:15:25 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:15:25 INFO  skipping build import with status 'Installed'[0m
+2022.09.24 09:15:25 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:15:26 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:15:26 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:15:26 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:15:26 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:15:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:15:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:15:26 INFO  time: Connected to build server in 0.4s[0m
+2022.09.24 09:15:26 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.24 09:15:27 INFO  no build target found for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.09.24 09:15:29 INFO  time: code lens generation in 3.23s[0m
+2022.09.24 09:15:31 INFO  time: indexed workspace in 4.78s[0m
+2022.09.24 09:17:53 INFO  shutting down Metals[0m
+2022.09.24 09:17:53 INFO  Shut down connection with build server.[0m
+2022.09.24 09:17:53 INFO  Shut down connection with build server.[0m
+2022.09.24 09:17:53 INFO  Shut down connection with build server.[0m
+2022.09.24 09:18:00 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.24 09:18:00 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.24 09:18:00 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.24 09:18:00 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.24 09:18:01 INFO  time: initialize in 0.68s[0m
+2022.09.24 09:18:02 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:18:02 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:18:02 INFO  skipping build import with status 'Installed'[0m
+2022.09.24 09:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:18:02 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:18:02 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:18:02 INFO  Attempting to connect to the build server...[0m
+2022.09.24 09:18:02 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.24 09:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:18:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.24 09:18:02 INFO  time: Connected to build server in 0.52s[0m
+2022.09.24 09:18:02 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.24 09:18:04 INFO  no build target found for /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/src/main/scala/fireworks/Fireworks.scala. Using presentation compiler with project's scala-library version: 3.1.3[0m
+2022.09.24 09:18:04 INFO  time: code lens generation in 1.48s[0m
+2022.09.24 09:18:05 INFO  time: indexed workspace in 1.57s[0m
+2022.09.24 09:18:09 INFO  shutting down Metals[0m
+2022.09.24 09:18:09 INFO  Shut down connection with build server.[0m
+2022.09.24 09:18:09 INFO  Shut down connection with build server.[0m
+2022.09.24 09:18:09 INFO  Shut down connection with build server.[0m
+2022.09.27 11:27:07 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/lsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2022.09.27 11:27:07 INFO  logging to file /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/metals.log[0m
+2022.09.27 11:27:07 INFO  Started: Metals version 0.11.8 in workspace '/Users/estebanmarin/47deg/coursera/effective-scala/fireworks' for client Visual Studio Code 1.71.2.[0m
+2022.09.27 11:27:07 WARN  Flyway upgrade recommended: H2 2.1.214 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.[0m
+2022.09.27 11:27:08 INFO  time: initialize in 0.73s[0m
+2022.09.27 11:27:08 INFO  Attempting to connect to the build server...[0m
+2022.09.27 11:27:08 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.27 11:27:09 INFO  skipping build import with status 'Installed'[0m
+2022.09.27 11:27:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.27 11:27:09 INFO  Attempting to connect to the build server...[0m
+2022.09.27 11:27:09 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.27 11:27:09 INFO  Attempting to connect to the build server...[0m
+2022.09.27 11:27:09 INFO  Bloop uses /Users/estebanmarin/.sdkman/candidates/java/current defined at /Users/estebanmarin/.bloop/bloop.json[0m
+2022.09.27 11:27:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.27 11:27:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/project/.metals/bsp.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2022.09.27 11:27:09 INFO  time: Connected to build server in 0.49s[0m
+2022.09.27 11:27:09 INFO  Connected to Build server: Bloop v1.5.3[0m
+2022.09.27 11:27:09 INFO  time: Imported build in 0.11s[0m
+2022.09.27 11:27:12 INFO  time: indexed workspace in 2.59s[0m
+2022.09.27 11:28:44 INFO  compiling fireworks-test (1 scala source)[0m
+2022.09.27 11:28:47 INFO  time: compiled fireworks-test in 2.42s[0m
+2022.09.27 11:29:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 11:29:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 11:29:21 INFO  Starting debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 11:29:22 INFO  Trying to attach to remote debuggee VM localhost:50617 .[0m
+2022.09.27 11:29:22 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 11:29:23 INFO  Canceling debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 11:29:22 INFO  Closing debug server tcp://0.0.0.0:50612[0m
+Sep 27, 2022 11:29:23 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/sun.nio.ch.NioSocketImpl.ensureOpenAndConnected(NioSocketImpl.java:165)
+	at java.base/sun.nio.ch.NioSocketImpl.beginWrite(NioSocketImpl.java:366)
+	at java.base/sun.nio.ch.NioSocketImpl.implWrite(NioSocketImpl.java:411)
+	at java.base/sun.nio.ch.NioSocketImpl.write(NioSocketImpl.java:440)
+	at java.base/sun.nio.ch.NioSocketImpl$2.write(NioSocketImpl.java:826)
+	at java.base/java.net.Socket$SocketOutputStream.write(Socket.java:1035)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+Sep 27, 2022 11:30:07 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 152
+2022.09.27 11:31:40 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:31:40 INFO  time: compiled fireworks in 0.21s[0m
+2022.09.27 11:34:07 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:34:07 INFO  time: compiled fireworks in 0.12s[0m
+Sep 27, 2022 11:36:32 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 612
+Sep 27, 2022 11:39:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.09.27 11:40:26 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:40:26 INFO  time: compiled fireworks in 0.12s[0m
+2022.09.27 11:51:33 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:51:33 INFO  time: compiled fireworks in 0.11s[0m
+2022.09.27 11:51:42 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:51:42 INFO  time: compiled fireworks in 0.47s[0m
+2022.09.27 11:56:25 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:56:25 INFO  time: compiled fireworks in 0.1s[0m
+2022.09.27 11:56:34 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:56:34 INFO  time: compiled fireworks in 0.11s[0m
+2022.09.27 11:56:57 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:56:57 INFO  time: compiled fireworks in 89ms[0m
+2022.09.27 11:57:17 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:57:17 INFO  time: compiled fireworks in 79ms[0m
+2022.09.27 11:58:22 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 11:58:22 INFO  time: compiled fireworks in 0.31s[0m
+2022.09.27 12:00:09 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:00:09 INFO  time: compiled fireworks in 0.26s[0m
+2022.09.27 12:00:22 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:00:22 INFO  time: compiled fireworks in 0.26s[0m
+2022.09.27 12:00:50 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:00:50 INFO  time: compiled fireworks in 0.23s[0m
+2022.09.27 12:01:01 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:01:01 INFO  time: compiled fireworks in 71ms[0m
+Sep 27, 2022 12:01:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1447
+2022.09.27 12:01:32 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:01:32 INFO  time: compiled fireworks in 0.21s[0m
+2022.09.27 12:01:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:01:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:01:37 INFO  Starting debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:01:37 INFO  Trying to attach to remote debuggee VM localhost:51003 .[0m
+2022.09.27 12:01:37 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:01:37 INFO  Canceling debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:01:37 INFO  Closing debug server tcp://0.0.0.0:50999[0m
+2022.09.27 12:01:46 INFO  compiling fireworks-test (1 scala source)[0m
+2022.09.27 12:01:46 INFO  time: compiled fireworks-test in 0.21s[0m
+2022.09.27 12:01:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:01:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:01:48 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Done' when given 'Done' `)][0m
+2022.09.27 12:01:49 INFO  Trying to attach to remote debuggee VM localhost:51021 .[0m
+2022.09.27 12:01:49 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:01:49 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Done' when given 'Done' `)][0m
+2022.09.27 12:01:49 INFO  Closing debug server tcp://0.0.0.0:51017[0m
+2022.09.27 12:01:53 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:01:53 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:01:53 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:01:54 INFO  Trying to attach to remote debuggee VM localhost:51033 .[0m
+2022.09.27 12:01:54 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:01:54 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:01:54 INFO  Closing debug server tcp://0.0.0.0:51029[0m
+2022.09.27 12:02:32 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:02:32 INFO  time: compiled fireworks in 0.46s[0m
+2022.09.27 12:02:34 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:02:34 INFO  time: compiled fireworks in 0.39s[0m
+2022.09.27 12:02:55 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:02:55 INFO  time: compiled fireworks in 0.2s[0m
+2022.09.27 12:04:35 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:04:35 INFO  time: compiled fireworks in 64ms[0m
+2022.09.27 12:05:08 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:05:08 INFO  time: compiled fireworks in 59ms[0m
+2022.09.27 12:05:13 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:05:13 INFO  time: compiled fireworks in 91ms[0m
+2022.09.27 12:05:14 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:05:14 INFO  time: compiled fireworks in 60ms[0m
+2022.09.27 12:06:00 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:06:00 INFO  time: compiled fireworks in 52ms[0m
+2022.09.27 12:06:42 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:06:42 INFO  time: compiled fireworks in 73ms[0m
+2022.09.27 12:06:48 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:06:48 INFO  time: compiled fireworks in 61ms[0m
+2022.09.27 12:07:32 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:07:32 INFO  time: compiled fireworks in 86ms[0m
+2022.09.27 12:07:43 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:07:43 INFO  time: compiled fireworks in 59ms[0m
+2022.09.27 12:07:48 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:07:48 INFO  time: compiled fireworks in 0.18s[0m
+2022.09.27 12:07:51 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:07:51 INFO  time: compiled fireworks in 0.17s[0m
+Sep 27, 2022 12:07:57 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2066
+2022.09.27 12:07:59 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:07:59 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:08:24 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:08:24 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:08:24 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:08:24 INFO  Trying to attach to remote debuggee VM localhost:51167 .[0m
+2022.09.27 12:08:24 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:08:25 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Waiting' or 'Launched' when given 'Waiting')][0m
+2022.09.27 12:08:24 INFO  Closing debug server tcp://0.0.0.0:51162[0m
+2022.09.27 12:13:21 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:13:21 INFO  time: compiled fireworks in 0.18s[0m
+2022.09.27 12:13:27 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:13:27 INFO  time: compiled fireworks in 0.19s[0m
