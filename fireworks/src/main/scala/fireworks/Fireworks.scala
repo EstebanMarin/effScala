@@ -138,7 +138,12 @@ case class Launched(
     * [[Settings.propulsionSpeed]] for the speed of the firework.
     */
   def next: Firework =
-    if countDown > 0 then copy(countDown = countDown -1, Motion.movePoint(position, direction, ???)) else ???
+    if countDown > 0 then
+      copy(
+        countDown = countDown - 1,
+        Motion.movePoint(position, direction, Settings.propulsionSpeed)
+      )
+    else Exploding.init(numberOfParticles, direction, position, particlesColor)
 
 end Launched
 
@@ -256,19 +261,24 @@ case class Particle(
     // should be the current value reduced by air friction
     // Hint: use the operation `Motion.drag`
     val updatedHorizontalSpeed: Double =
-      ???
+      Motion.drag(horizontalSpeed)
     // Vertical speed is subject to both air friction and gravity, its next
     // value should be the current value minus the gravity, then reduced by
     // air friction
     val updatedVerticalSpeed: Double =
-      ???
+      Motion.drag(verticalSpeed)
     // Particle position is updated according to its new speed
     val updatedPosition = Point(
       position.x + updatedHorizontalSpeed,
       position.y + updatedVerticalSpeed
     )
     // Construct a new particle with the updated position and speed
-    ???
+    Particle(
+      updatedHorizontalSpeed,
+      updatedVerticalSpeed,
+      updatedPosition,
+      color
+    )
 
 end Particle
 

@@ -417,3 +417,52 @@ WARNING: Unmatched cancel notification for request id 2648
 2022.09.27 12:31:02 INFO  time: compiled fireworks in 0.15s[0m
 Sep 27, 2022 12:31:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.09.27 12:36:44 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:36:44 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:36:51 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:36:51 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:37:43 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:37:43 INFO  time: compiled fireworks in 0.15s[0m
+2022.09.27 12:37:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:37:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:37:52 INFO  Starting debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:37:53 INFO  Trying to attach to remote debuggee VM localhost:51694 .[0m
+2022.09.27 12:37:53 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:37:52 INFO  Canceling debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:37:53 INFO  Closing debug server tcp://0.0.0.0:51688[0m
+2022.09.27 12:38:39 INFO  compiling fireworks-test (1 scala source)[0m
+2022.09.27 12:38:39 INFO  time: compiled fireworks-test in 0.16s[0m
+2022.09.27 12:38:41 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:38:41 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:38:41 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Exploding' or 'Done' when given 'Exploding')][0m
+2022.09.27 12:38:41 INFO  Trying to attach to remote debuggee VM localhost:51711 .[0m
+2022.09.27 12:38:41 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:38:42 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Exploding' or 'Done' when given 'Exploding')][0m
+2022.09.27 12:38:41 INFO  Closing debug server tcp://0.0.0.0:51707[0m
+2022.09.27 12:41:23 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:41:23 INFO  time: compiled fireworks in 0.16s[0m
+2022.09.27 12:42:32 INFO  compiling fireworks (1 scala source)[0m
+2022.09.27 12:42:32 INFO  time: compiled fireworks in 0.14s[0m
+2022.09.27 12:42:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:42:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:42:57 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Exploding' or 'Done' when given 'Exploding')][0m
+2022.09.27 12:42:57 INFO  Trying to attach to remote debuggee VM localhost:51775 .[0m
+2022.09.27 12:42:57 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:42:57 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Exploding' or 'Done' when given 'Exploding')][0m
+2022.09.27 12:42:57 INFO  Closing debug server tcp://0.0.0.0:51770[0m
+2022.09.27 12:43:00 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:43:00 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:43:00 INFO  Starting debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Launched' or 'Exploding' when given 'Launched')][0m
+2022.09.27 12:43:00 INFO  Trying to attach to remote debuggee VM localhost:51787 .[0m
+2022.09.27 12:43:00 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:43:00 INFO  Canceling debug proxy for [fireworks.FireworksSuite('Firework.next' returns 'Launched' or 'Exploding' when given 'Launched')][0m
+2022.09.27 12:43:00 INFO  Closing debug server tcp://0.0.0.0:51782[0m
+2022.09.27 12:43:14 INFO  compiling fireworks-test (1 scala source)[0m
+2022.09.27 12:43:14 INFO  time: compiled fireworks-test in 0.24s[0m
+2022.09.27 12:43:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-server.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-server.trace.json[0m
+2022.09.27 12:43:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/estebanmarin/47deg/coursera/effective-scala/fireworks/.metals/dap-client.trace.json or /Users/estebanmarin/Library/Caches/org.scalameta.metals/dap-client.trace.json[0m
+2022.09.27 12:43:16 INFO  Starting debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:43:17 INFO  Trying to attach to remote debuggee VM localhost:51808 .[0m
+2022.09.27 12:43:17 INFO  Attaching to debuggee VM succeeded.[0m
+2022.09.27 12:43:17 INFO  Canceling debug proxy for [fireworks.FireworksSuite()][0m
+2022.09.27 12:43:17 INFO  Closing debug server tcp://0.0.0.0:51804[0m
